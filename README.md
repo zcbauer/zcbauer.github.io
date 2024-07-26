@@ -1,2 +1,3 @@
-# zcbauer.github.io
-this is a test
+# Hello
+- linkedin: https://www.linkedin.com/in/zachary-bauer-480a47204/
+- Github: https://github.com/zcbauer
