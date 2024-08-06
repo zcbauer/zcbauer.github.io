@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html>
-	<body style="background-color:powderblue;">
-	<h1> Zachary Bauer</h1>
-	<img src="Pic.jpg" sytle="width:200px; height:200px">
-	<p> Hello, I am an Electrical & Computer Engineering student at the University of Michigan specializing in Embedded Systems </p>
-	<h2> Links: </h2>
-	<p> <a href= "https://www.linkedin.com/in/zachary-bauer-480a47204/">Linkedin</a> </p>
-	<p> <a href= "https://github.com/zcbauer">Github</a> </p>
-
-<html>
-
+<html lang="en">
+<head>
+    <body style="background-color:powderblue;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            margin: 2em auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #about img {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#links"> Links</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Pic.jpg" alt="My Photo">
+        <p>Hello! I'm Zachary Bauer, a first year ECE Master's at the University of Michigan specializing in Embedded systems. I completed a Bachelor's in Computer Engineering also from the University of Michigan in May 2024. Welcome to my personal website!</p>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>Project 1: Description of project 1.</li>
+            <li>Project 2: Description of project 2.</li>
+            <li>Project 3: Description of project 3.</li>
+        </ul>
+    </section>
+    <section id = "links">
+        <h2> Links: </h2>
+	    <p> <a href= "https://www.linkedin.com/in/zachary-bauer-480a47204/">Linkedin</a> </p>
+	    <p> <a href= "https://github.com/zcbauer">Github</a> </p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:zcbauer@umich.edu">zcbauer@umich.edu</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Zachary Bauer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
