@@ -1,146 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <body style="background-color:powderblue;">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            background-color: #444;
-            padding: 1em 0;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        section {
-            padding: 2em;
-            margin: 2em auto;
-            max-width: 1600px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        #about img {
-            display: block;
-            margin: 0 auto 20px;
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            text-align: center;
-            padding: 1em 0;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#links"> Links</a>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="Pic.jpg" alt="My Photo">
-        <p>Hello! I'm Zachary Bauer, a Second year ECE Master's at the University of Michigan specializing in Embedded systems. I completed a Bachelor's in Computer Engineering also from the University of Michigan in May 2024. Welcome to my personal website!</p>
-    </section>
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        .project {
-            margin-bottom: 20px;
-        }
-        .project-header {
-            display: flex;
-            justify-content: space-between;
-            font-weight: bold;
-        }
-        .project-description {
-            margin-top: 5px;
-        }
-    </style>
-</head>
+	<head>
+		<body style="background-color:powderblue;">
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>My Personal Website</title>
+			<style>
+			body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+			}
+			header {
+			background-color: #333;
+			color: #fff;
+			padding: 1em 0;
+			text-align: center;
+			}
+			nav {
+			text-align: center;
+			background-color: #444;
+			padding: 1em 0;
+			}
+			nav a {
+			color: #fff;
+			margin: 0 15px;
+			text-decoration: none;
+			}
+			section {
+			padding: 2em;
+			margin: 2em auto;
+			max-width: 1600px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+			}
+			#about img {
+			display: block;
+			margin: 0 auto 20px;
+			max-width: 100%;
+			height: auto;
+			}
+			footer {
+			text-align: center;
+			padding: 1em 0;
+			background-color: #333;
+			color: #fff;
+			}
+			</style>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to My Personal Website</h1>
+		</header>
+		<nav>
+			<a href="#about">About</a>
+			<a href="#class projects">Class Projects</a>
+			<a href="#work projects">Work Experience</a>
+			<a href="#research projects">Reserach Projects</a>
+			<a href="#contact">Contact</a>
+			<a href="#links"> Links</a>
+		</nav>
+		<section id="about">
+			<h2>About Me</h2>
+			<img src="Pic.jpg" alt="My Photo">
+			<p>Hello! I'm Zachary Bauer, a Second year ECE Master's at the University of Michigan specializing in Embedded systems. I completed a Bachelor's in Computer Engineering also from the University of Michigan in May 2024. Welcome to my personal website!</p>
+		</section>
+		<section id="class projects">
+			<h2>Class Projects</h2>
+			<ul>
+				<!DOCTYPE html>
+				<html lang="en">
+					<head>
+						<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+						<title>Projects</title>
+						<style>
+						body {
+						font-family: Arial, sans-serif;
+						line-height: 1.6;
+						margin: 20px;
+						}
+						.project {
+						margin-bottom: 20px;
+						}
+						.project-header {
+						display: flex;
+						justify-content: space-between;
+						font-weight: bold;
+						}
+						.project-description {
+						margin-top: 5px;
+						}
+						</style>
+					</head>
 
-    <div class="project">
-        <div class="project-header">
-            <span>Smart Scoreboard</span>
-            <span>September - December 2023</span>
-        </div>
-        <div class="project-description">
-            I did this as my second Senior Capstonefor EECS 473:Advanced Embedded Systems. My contributions where designing and assembling a PCBs for 2 wearable controllers. 
-            Additionally, I created a protocol for sending commands to the scoreboard wirelessly from the controllers that I built. I also created a menu system that was used for a touchscreen controller on the board itself.
+					<div class="project">
+						<div class="project-header">
+							<span><a href="./Class_Proj/Smart_Scoreboard.html">Smart Scoreboard</a></span>
+							<span>September - December 2023</span>
+						</div>
+						<!--
+						<div class="project-description">
+							I did this as my second Senior Capstonefor EECS 473:Advanced Embedded Systems. My contributions where designing and assembling a PCBs for 2 wearable controllers. 
+							Additionally, I created a protocol for sending commands to the scoreboard wirelessly from the controllers that I built. I also created a menu system that was used for a touchscreen controller on the board itself.
 
-        </div>
-    </div>
+						</div>
+						-->
+					</div>
+					<!--
+					<div class="project">
+						<div class="project-header">
+							<span>BMS System Testing Apparatus</span>
+							<span>May - July 2023</span>
+						</div>
+						<div class="project-description">
+							Completed while I was an intern for the Ford Motor Company. I designed and built a system to test the BMS for Ford vehicles. While working on the project, I cultivated knowledge in analog signal processing.
+						</div>
+					</div>
+					-->
+					<div class="project">
+						<div class="project-header">
+							<span><a href="./Class_Proj/Skin.html">Skin Touch Tracking Device</a></span>
+							<span>February - April 2023</span>
+						</div>
+						<div class="project-description">
+							Senior Capstone project. Done for my Human-Computer Interaction course. The device I helped design was able to detect and localize a person's finger when they touched their arm. An oscillator that I built created a 60 MHz electrical signal that was transmitted through the skin.
+						</div>
+					</div>
 
-    <div class="project">
-        <div class="project-header">
-            <span>BMS System Testing Apparatus</span>
-            <span>May - July 2023</span>
-        </div>
-        <div class="project-description">
-            Completed while I was an intern for the Ford Motor Company. I designed and built a system to test the BMS for Ford vehicles. While working on the project, I cultivated knowledge in analog signal processing.
-        </div>
-    </div>
+				</html>
 
-    <div class="project">
-        <div class="project-header">
-            <span>Skin Touch Tracking Device</span>
-            <span>February - April 2023</span>
-        </div>
-        <div class="project-description">
-            Senior Capstone project. Done for my Human-Computer Interaction course. The device I helped design was able to detect and localize a person's finger when they touched their arm. An oscillator that I built created a 60 MHz electrical signal that was transmitted through the skin.
-        </div>
-    </div>
+			</ul>
+		</section>
+		<section id ="work projects">
+			<h2>Work Experience</h2>
+			<ul>
+			<!doctype html>
+			<html lang="en">
+	
+				<head>
+					<meta charset="utf-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>projects</title>
+					<style>
+					body {
+					font-family: arial, sans-serif;
+					line-height: 1.6;
+					margin: 20px;
+					}
+					.project {
+					margin-bottom: 20px;
+					}
+					.project-header {
+					display: flex;
+					justify-content: space-between;
+					font-weight: bold;
+					}
+					.project-description {
+					margin-top: 5px;
+					}
+					</style>
+				</head>
+				<div class="project">
+					<div class="project-header">
+						<span><a href="./work_proj/bms.html"> Ford bms system testing apparatus</a></span>
+						<span>May - August 2023</span>
+					</div>
+					
+				</div>
+				<div class="project">
+					<div class="project-header">
+						<span><a href="./work_proj/fibartower.html"> Fibarcode fiber draw tower</a></span>
+						<span>May - August 2025</span>
+					</div>
+				</div>
+				</html>
+			</ul>
+		</section>
+		<section id ="research projects">
+			<h2>Research Experience</h2>
+			<ul>
+			<!doctype html>
+			<html lang="en">
+	
+				<head>
+					<meta charset="utf-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>projects</title>
+					<style>
+					body {
+					font-family: arial, sans-serif;
+					line-height: 1.6;
+					margin: 20px;
+					}
+					.project {
+					margin-bottom: 20px;
+					}
+					.project-header {
+					display: flex;
+					justify-content: space-between;
+					font-weight: bold;
+					}
+					.project-description {
+					margin-top: 5px;
+					}
+					</style>
+				</head>
+				<div class="project">
+					<div class="project-header">
+						<span><a href="./Research_Proj/Laser.html"> Fiber Laser Cut PCBs</a></span>
+						<span>May - August 2024</span>
+					</div>
+					
+				</div>
+				<div class="project">
+					<div class="project-header">
+						<span><a href="./Research_Proj/Mic.html"> Spiral Microphone Array Design</a></span>
+						<span>August 2024 - Present</span>
+					</div>
+				</div>
+				<div class="project">
+					<div class="project-header">
+						<span><a href="./Research_Proj/Phone.html"> Phone case data collection</a></span>
+						<span>June 2025 - Present</span>
+					</div>
+				</div>
 
-</html>
+				</html>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<p>You can reach me at <a href="mailto:zcbauer@umich.edu">zcbauer@umich.edu</a></p>
+		</section>
+		<section id = "links">
+			<h2> Links: </h2>
+			<p> <a href= "https://www.linkedin.com/in/zachary-bauer-480a47204/">Linkedin</a> </p>
+			<p> <a href= "https://github.com/zcbauer">Github</a> </p>
+		</section>
 
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at <a href="mailto:zcbauer@umich.edu">zcbauer@umich.edu</a></p>
-    </section>
-    <section id = "links">
-        <h2> Links: </h2>
-	    <p> <a href= "https://www.linkedin.com/in/zachary-bauer-480a47204/">Linkedin</a> </p>
-	    <p> <a href= "https://github.com/zcbauer">Github</a> </p>
-    </section>
-   
-    <footer>
-        <p>&copy; 2025 Zachary Bauer. All rights reserved.</p>
-    </footer>
-</body>
+		<footer>
+			<p>&copy; 2025 Zachary Bauer. All rights reserved.</p>
+		</footer>
+	</body>
 </html>
