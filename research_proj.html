@@ -34,11 +34,12 @@
 			text-decoration: none;
 		}
 
+
 		section {
-			padding: 2em;
-			margin: 2em auto;
-			max-width: 1600px;
+			flex: 0 1 400px;
+			/* preferred width, shrinks if needed */
 			background-color: #fff;
+			padding: 1.5em;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		}
 
@@ -55,6 +56,17 @@
 			background-color: #333;
 			color: #fff;
 		}
+
+		.cards {
+			display: flex;
+			flex-wrap: wrap;
+			/* allows multiple rows if needed */
+			gap: 2em;
+			/* spacing between sections */
+			justify-content: center;
+			/* center them horizontally */
+			padding: 2em;
+		}
 	</style>
 	</head>
 
@@ -63,18 +75,45 @@
 			<h1>Research Projects</h1>
 		</header>
 		<nav>
-			<a href="index.html">Back</a>
-		</nav>
-		<section id="Laser">
-			<h2><a href="./Research_Proj/Laser.html">Laser Cut PCBs</a></h2>
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="research_proj.html">Research Projects</a>
 
-		</section>
-		<section id="Mic">
-			<h2><a href="./Research_Proj/Mic.html">Spiral Microphone Array Design</a></h2>
-		</section>
-		<section id="Phone">
-			<h2><a href="./Research_Proj/Phone.html">Phone case data collection</a></h2>
-		</section>
+		</nav>
+		<div class="cards">
+			<section id="Laser">
+				<img src="assets/Laser1.png" alt="PCB being cut" width="300" height="300">
+				<h2><a href="./Research_Proj/Laser.html">Laser Cut PCBs</a></h2>
+
+				<body>
+					Cutting PCBs using a laser cutter
+					<p>
+						<b>May 2024 - August 2024</b>
+				</body>
+
+			</section>
+			<section id="Mic">
+				<img src="assets/MicArray1.png" alt="Mic Array Directivity" width="300" height="300">
+				<h2><a href="./Research_Proj/Mic.html">Spiral Microphone Array Design</a></h2>
+
+				<body>
+					Designing a Mic array to be used as an accoustic camera
+					<p>
+						<b> August 2024 - Present </b>
+					</p>
+				</body>
+			</section>
+			<section id="Phone">
+				<img src="assets/Voxcapture1.jpg" alt="VoxcapturePCB" width="200" height="300">
+				<h2><a href="./Research_Proj/Phone.html">Voxcapture</a></h2>
+
+				<body>
+					Desiging a board which sits inside a phone case for use in observation studies
+					<p>
+						<b> May 2025 - Present </b>
+					</p>
+			</section>
+		</div>
 
 
 	</body>
